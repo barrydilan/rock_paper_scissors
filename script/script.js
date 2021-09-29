@@ -34,8 +34,9 @@ function game() {
                 break;
             case "2":
                 computerWin++;
-                break;
+                break;       
         }
+        console.log("Player score "+playerWin + " Computer score "+computerWin + " Ties " + ties)
     }
     return (console.log("Player score "+playerWin + " Computer score "+computerWin + " Ties " + ties))   
 }
