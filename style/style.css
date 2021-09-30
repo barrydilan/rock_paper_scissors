@@ -1,3 +1,95 @@
-body {
-    background-color: aqua;
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    color: white;
+    background-color: #84DCC6;
+
 }
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 150px;
+    /* display: flex;
+    justify-content: center;
+    align-content: center; */
+    text-align: center;
+    background-color: white;
+}
+h1 {
+    display: inline-block;
+    margin: auto;
+    color:#84DCC6;
+    background-color: white;
+}
+.scoreboard {
+    margin: 50px auto;
+    border: 5px solid white;
+    width: 200px;
+    position: relative;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.scoreboard span {
+    font-size: 40px;
+}
+
+#userLabel {
+    background-color: #4B4E6D;
+    position: absolute;
+    top: 25px;
+    right: 220px;
+    padding: 4px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+#computerLabel {
+    background-color: #4B4E6D;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    padding: 3px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.statusMessage {
+    margin-top: 50px;
+   /*  display: flex; */
+    justify-content: center;
+    text-align: center;
+    font-size: 40px;
+}
+
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+}
+
+.win {
+    color: green;
+}
+.lose {
+    color: red;
+}
+
+button {
+    transition-duration: 0.4s;
+    font-size: 20px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 20%;
+  }
+  
+button:hover {
+    background-color: #4B4E6D; 
+    color: #ffffff;
+    
+  }
